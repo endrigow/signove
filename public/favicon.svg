@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="sigFavGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00D2D3" />
+      <stop offset="100%" stopColor="#0284C7" />
+    </linearGradient>
+    <linearGradient id="sigFavGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#02C39A" />
+      <stop offset="100%" stopColor="#00A896" />
+    </linearGradient>
+    <linearGradient id="sigFavGrad3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#0284C7" />
+      <stop offset="100%" stopColor="#00529B" />
+    </linearGradient>
+  </defs>
+  <path d="M24 16C24 11.5817 27.5817 8 32 8C36.4183 8 40 11.5817 40 16C40 20.4183 34 25 24 28C24 24 24 20 24 16Z" fill="url(#sigFavGrad1)" />
+  <path d="M16 28C11.5817 28 8 24.4183 8 20C8 15.5817 11.5817 12 16 12C20.4183 12 24 18 24 28C20 28 18 28 16 28Z" fill="url(#sigFavGrad2)" />
+  <path d="M24 28C24 38 29 40 33 40C37.4183 40 40 36.4183 40 32C40 27.5817 34 24 24 28Z" fill="url(#sigFavGrad3)" />
+  <circle cx="24" cy="24" r="3.5" fill="#FFFFFF" />
+</svg>
