@@ -12,18 +12,20 @@ export const translations = {
       tagline: "Engenharia Médica & IoMT"
     },
     hero: {
+      tag: "TECNOLOGIA SIGHEALTH | TELEMETRIA MÉDICA & MONITORAMENTO DE LEITOS | TEMPO REAL",
       badge: "Pioneira em IoMT e Saúde Conectada",
-      titleStart: "A inteligência que conecta ",
-      titleHighlight: "sinais vitais à nuvem",
-      titleEnd: " em tempo real.",
-      subtitle: "A Signove desenvolve software médico de alta precisão para monitoramento remoto de pacientes (RPM), IoMT e telemetria hospitalar integrada, com certificações internacionais e patente registrada no USPTO.",
+      titleStart: "A inteligência que conecta sinais vitais à ",
+      titleHighlight: "nuvem em tempo real.",
+      subtitle: "Engenharia de software biomédico para vigilância contínua de leitos hospitalares, centrais de telemetria multiparamétrica e monitoramento remoto de pacientes (RPM) com certificação ISO 13485 e patente registrado no USPTO.",
       ctaPrimary: "Explorar Tecnologia SigHealth",
-      ctaSecondary: "Ver Demonstração Interativa",
+      ctaSecondary: "Ver Demonstração ao Vivo",
+      bedBadgeTitle: "Leito 04 UTI • Monitor Multiparamétrico",
+      bedBadgeVitals: "ECG • SpO2 92% • PA 120/80 • Online",
       stats: [
-        { value: "+15 Anos", label: "de P&D em Software Médico" },
-        { value: "ISO 13485", label: "Certificação de Qualidade Médica" },
-        { value: "USPTO", label: "Patente Registrada nos EUA" },
-        { value: "Continua™", label: "Padrão Global PAN/WAN" }
+        { value: "+15 Anos", label: "de P&D em Software Médico", type: "years" },
+        { value: "ISO 13485", label: "Certificação de Qualidade Médica", type: "iso" },
+        { value: "USPTO", label: "Patente Registrada nos EUA", type: "uspto" },
+        { value: "Continua", label: "Padrão Global PAN/WAN", type: "continua" }
       ]
     },
     liveSimulator: {
@@ -281,18 +283,20 @@ export const translations = {
       tagline: "Medical Engineering & IoMT"
     },
     hero: {
+      tag: "SIGHEALTH TECHNOLOGY | MEDICAL TELEMETRY & BED MONITORING | REAL TIME",
       badge: "Pioneering IoMT & Connected Health",
-      titleStart: "The intelligence connecting ",
-      titleHighlight: "vital signs to the cloud",
-      titleEnd: " in real time.",
-      subtitle: "Signove engineers high-precision medical software for remote patient monitoring (RPM), IoMT, and integrated hospital telemetry, backed by international certifications and a registered USPTO patent.",
+      titleStart: "The intelligence connecting vital signs to the ",
+      titleHighlight: "cloud in real time.",
+      subtitle: "Biomedical software engineering for continuous hospital bed surveillance, multiparametric telemetry central stations, and remote patient monitoring (RPM) certified under ISO 13485 and registered with the USPTO.",
       ctaPrimary: "Explore SigHealth Technology",
-      ctaSecondary: "View Live Simulation",
+      ctaSecondary: "View Live Demo",
+      bedBadgeTitle: "ICU Bed 04 • Multiparametric Monitor",
+      bedBadgeVitals: "ECG • SpO2 92% • BP 120/80 • Online",
       stats: [
-        { value: "15+ Years", label: "Medical Software R&D" },
-        { value: "ISO 13485", label: "Medical Quality Certification" },
-        { value: "USPTO", label: "Registered US Patent" },
-        { value: "Continua™", label: "Global PAN/WAN Standard" }
+        { value: "15+ Years", label: "Medical Software R&D", type: "years" },
+        { value: "ISO 13485", label: "Medical Quality Certification", type: "iso" },
+        { value: "USPTO", label: "Registered US Patent", type: "uspto" },
+        { value: "Continua", label: "Global PAN/WAN Standard", type: "continua" }
       ]
     },
     liveSimulator: {
